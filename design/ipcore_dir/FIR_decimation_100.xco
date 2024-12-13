@@ -1,0 +1,85 @@
+##############################################################
+#
+# Xilinx Core Generator version 14.7
+# Date: Mon Oct  2 14:41:54 2023
+#
+##############################################################
+#
+#  This file contains the customisation parameters for a
+#  Xilinx CORE Generator IP GUI. It is strongly recommended
+#  that you do not manually alter this file as it may cause
+#  unexpected and unsupported behavior.
+#
+##############################################################
+#
+#  Generated from component: xilinx.com:ip:FIR_Compiler:3.2
+#
+##############################################################
+#
+# BEGIN Project Options
+SET addpads = false
+SET asysymbol = true
+SET busformat = BusFormatAngleBracketNotRipped
+SET createndf = false
+SET designentry = Verilog
+SET device = xc4vfx60
+SET devicefamily = virtex4
+SET flowvendor = Foundation_ISE
+SET formalverification = false
+SET foundationsym = false
+SET implementationfiletype = Ngc
+SET package = ff1152
+SET removerpms = false
+SET simulationfiles = Structural
+SET speedgrade = -10
+SET verilogsim = true
+SET vhdlsim = false
+# END Project Options
+# BEGIN Select
+SELECT FIR_Compiler xilinx.com:ip:FIR_Compiler:3.2
+# END Select
+# BEGIN Parameters
+CSET allow_rounding_approximation=false
+CSET clock_frequency=40
+CSET coefficient_buffer_type=Automatic
+CSET coefficient_file=S:/ATCA_RT_MIMO/FIR_10kHz_98taps.coe
+CSET coefficient_reload=false
+CSET coefficient_sets=1
+CSET coefficient_sign=Signed
+CSET coefficient_structure=Inferred
+CSET coefficient_width=16
+CSET column_wrap_length=64
+CSET component_name=FIR_decimation_100
+CSET data_buffer_type=Automatic
+CSET data_sign=Signed
+CSET data_width=17
+CSET decimation_rate=2
+CSET filter_architecture=Multiply_Accumulate
+CSET filter_selection=1
+CSET filter_type=Decimation
+CSET first_column_length=64
+CSET has_ce=false
+CSET has_nd=true
+CSET has_sclr=true
+CSET input_buffer_type=Automatic
+CSET inter_column_pipe_length=4
+CSET interpolation_rate=1
+CSET multi_column_support=Disabled
+CSET number_channels=1
+CSET optimization_goal=Speed
+CSET output_buffer_type=Automatic
+CSET output_rounding_mode=Truncate_LSBs
+CSET output_width=18
+CSET passband_max=0.5
+CSET passband_min=0.0
+CSET preference_for_other_storage=Automatic
+CSET quantization=Integer_Coefficients
+CSET rate_change_type=Integer
+CSET registered_output=true
+CSET sample_frequency=2
+CSET stopband_max=1.0
+CSET stopband_min=0.5
+CSET zero_pack_factor=1
+# END Parameters
+GENERATE
+# CRC: 9941a543

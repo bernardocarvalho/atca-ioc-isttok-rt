@@ -1,0 +1,83 @@
+##############################################################
+#
+# Xilinx Core Generator version K.39
+# Date: Fri Mar 20 16:07:57 2009
+#
+##############################################################
+#
+#  This file contains the customisation parameters for a
+#  Xilinx CORE Generator IP GUI. It is strongly recommended
+#  that you do not manually alter this file as it may cause
+#  unexpected and unsupported behavior.
+#
+##############################################################
+#
+# BEGIN Project Options
+SET addpads = False
+SET asysymbol = True
+SET busformat = BusFormatAngleBracketNotRipped
+SET createndf = False
+SET designentry = VHDL
+SET device = xc4vfx60
+SET devicefamily = virtex4
+SET flowvendor = Foundation_iSE
+SET formalverification = False
+SET foundationsym = False
+SET implementationfiletype = Ngc
+SET package = ff1152
+SET removerpms = False
+SET simulationfiles = Behavioral
+SET speedgrade = -11
+SET verilogsim = True
+SET vhdlsim = True
+# END Project Options
+# BEGIN Select
+SELECT Aurora family Xilinx,_Inc. 3.0
+# END Select
+# BEGIN Parameters
+CSET c_aurora_lanes=1
+CSET c_device=xc4vfx60
+CSET c_hdl=VHDL
+CSET c_lane_width=4
+CSET c_line_rate=2.5
+CSET c_mgt_clock_1=REF_CLK2
+CSET c_mgt_clock_2=REF_CLK2
+CSET c_mgt_loc_1=1
+CSET c_mgt_loc_10=X
+CSET c_mgt_loc_11=X
+CSET c_mgt_loc_12=X
+CSET c_mgt_loc_13=1
+CSET c_mgt_loc_14=1
+CSET c_mgt_loc_15=1
+CSET c_mgt_loc_16=1
+CSET c_mgt_loc_17=1
+CSET c_mgt_loc_18=1
+CSET c_mgt_loc_19=1
+CSET c_mgt_loc_2=1
+CSET c_mgt_loc_20=1
+CSET c_mgt_loc_21=X
+CSET c_mgt_loc_22=X
+CSET c_mgt_loc_23=X
+CSET c_mgt_loc_24=X
+CSET c_mgt_loc_3=1
+CSET c_mgt_loc_4=1
+CSET c_mgt_loc_5=1
+CSET c_mgt_loc_6=1
+CSET c_mgt_loc_7=1
+CSET c_mgt_loc_8=1
+CSET c_mgt_loc_9=X
+CSET c_nfc=false
+CSET c_nfc_mode=IMM
+CSET c_package=ff1152
+CSET c_refclk_frequency=250.000
+CSET c_simplex=false
+CSET c_simplex_mode=BOTH
+CSET c_simplex_timer=false
+CSET c_stream=false
+CSET c_ufc=false
+CSET c_use_digital_cdr=false
+CSET component_name=aurora
+# END Parameters
+GENERATE
+# CRC: 61aad105
+

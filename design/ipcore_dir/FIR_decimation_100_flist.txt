@@ -1,0 +1,3 @@
+# Output products list for <FIR_decimation_100>
+FIR_decimation_100.xco
+FIR_decimation_100_flist.txt
